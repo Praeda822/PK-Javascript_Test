@@ -27,3 +27,15 @@ console.log(sum(5, 5));
 
 const newSum = (a, b) => a + b;
 console.log(newSum(20, 5));
+
+console.log('===== JAVASCRIPT OBJECTS =====');
+const emp = {
+  name: 'Patrick',
+  address: 'Hornsby TAFE',
+  phone: Number('1234567890'),
+  department: 'Mobile App Development',
+};
+console.log(emp.name);
+console.log(emp.address);
+console.log(emp.phone);
+console.log(emp.department);
